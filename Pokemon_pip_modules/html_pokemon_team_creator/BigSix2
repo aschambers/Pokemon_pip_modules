@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+	#outputTable {
+		width: 80%;
+		border: 1px solid black;
+	 } 
+	.ptable { 
+		display: table; 
+		border-spacing: 2px; 
+		border-collapse: collapse; 
+		white-space: normal;
+		line-height: normal;
+		font-weight: normal; 
+		font-size: medium;
+		font-variant: normal;
+		font-style: normal; 
+		color: -webkit-text;
+		text-align: start;
+		border: 1px solid black;	 } 
+	.output {
+		display: table-cell;
+		font-family: sans-serif;
+		font-size: 16px;
+		font-weight: bold;
+		font-family: sans-serif;
+		padding: 5px 10px 5px 3px;
+		text-align: vertical;
+		vertical-align: middle;
+		white-space: nowrap;
+		width: 73px;
+		border: 1px solid black	 } 
+	 .ptable td { 
+		display: table-cell; 
+		vertical-align: inherit; 
+		border: 1px solid black	 } 
+	 .ptable2 td { 
+		display: table-cell; 
+		vertical-align: inherit; 
+		border: 1px solid black	 } 
+	 .ptable3 td { 
+		display: table-cell; 
+		vertical-align: inherit; 
+		border: 1px solid black	 } 
+	 h2 { 
+		 display: block;
+		 font-size: 1.5em;
+		 -webkit-margin-before: 0.83em;
+		 -webkit-margin-after: 0.83em
+		 -webkit-margin-start: 0px;
+		 -webkit-margin-end: 0px;
+	 font-weight: bold;
+	 } 
+</style>	<title>BigSix2</title>
+</head>
+<body>
+	<h2>Pokemon Team List</h2>
+	<table id='outputTable'>
+		<tbody>
+			<tr>
+				<td>
+					<table class='ptable'>
+						<tbody>
+							<tr>
+								<th class='label'>Pokemon: </th>
+								<td>Groudon</td>
+							</tr>
+							<tr>
+								<th class='label'>Ability: </th>
+								<td>Drought</td>
+							</tr>
+							<tr>
+								<th class='label'>Held Item: </th>
+								<td>Red Orb</td>
+							</tr>
+							<tr>
+								<th class='label'>Move 1: </th>
+								<td>Precipice Blades</td>
+							</tr>
+							<tr>
+								<th class='label'>Move 2: </th>
+								<td>Earthquake</td>
+							</tr>
+							<tr>
+								<th class='label'>Move 3: </th>
+								<td>Protect</td>
+							</tr>
+							<tr>
+								<th class='label'>Move 4: </th>
+								<td>Fire Punch</td>
+							</tr>
+							<tr>
+								<th class='label'>Nature: </th>
+								<td>Brave</td>
+							</tr>
+						</tbody>
+					</table>
+				</td>
+				<td>
+					<table class='ptable'>
+						<tbody>
+							<tr>
+								<th class='label'>Pokemon: </th>
+								<td>Cresselia</td>
+							</tr>
+							<tr>
+								<th class='label'>Ability: </th>
+								<td>Levitate</td>
+							</tr>
+							<tr>
+								<th class='label'>Held Item: </th>
+								<td>Mental Herb</td>
+							</tr>
+							<tr>
+								<th class='label'>Move 1: </th>
+								<td>Trick Room</td>
+							</tr>
+							<tr>
+								<th class='label'>Move 2: </th>
+								<td>Gravity</td>
+							</tr>
+							<tr>
+								<th class='label'>Move 3: </th>
+								<td>Helping Hand</td>
+							</tr>
+							<tr>
+								<th class='label'>Move 4: </th>
+								<td>Skill Swap</td>
+							</tr>
+							<tr>
+								<th class='label'>Nature: </th>
+								<td>Sassy</td>
+							</tr>
+							</tr>
+						</tbody>
+					</table>
+				</td>
+				<br>
+				<td>
+					<table class='ptable2'>
+						<tbody>
+							<tr>
+								<th class='label'>Pokemon: </th>
+								<td>Kangaskhan</td>
+							</tr>
+							<tr>
+								<th class='label'>Ability: </th>
+								<td>Inner Focus</td>
+							</tr>
+							<tr>
+								<th class='label'>Held Item: </th>
+								<td>Kangaskhanite</td>
+							</tr>
+							<tr>
+								<th class='label'>Move 1: </th>
+								<td>Fake Out</td>
+							</tr>
+							<tr>
+								<th class='label'>Move 2: </th>
+								<td>Double-Edge</td>
+							</tr>
+							<tr>
+								<th class='label'>Move 3: </th>
+								<td>Low Kick</td>
+							</tr>
+							<tr>
+								<th class='label'>Move 4: </th>
+								<td>Sucker Punch</td>
+							</tr>
+							<tr>
+								<th class='label'>Nature: </th>
+								<td>Jolly</td>
+							</tr>
+							</tr>
+						</tbody>
+					</table>
+				</td>
+				<td>
+					<table class='ptable'>
+						<tbody>
+							<tr>
+								<th class='label'>Pokemon: </th>
+								<td>Talonflame</td>
+							</tr>
+							<tr>
+								<th class='label'>Ability: </th>
+								<td>Gale Wings</td>
+							</tr>
+							<tr>
+								<th class='label'>Held Item: </th>
+								<td>Sharp Beak</td>
+							</tr>
+							<tr>
+								<th class='label'>Move 1: </th>
+								<td>Brave Bird</td>
+							</tr>
+							<tr>
+								<th class='label'>Move 2: </th>
+								<td>Flare Blitz</td>
+							</tr>
+							<tr>
+								<th class='label'>Move 3: </th>
+								<td>Protect</td>
+							</tr>
+							<tr>
+								<th class='label'>Move 4: </th>
+								<td>Tailwind</td>
+							</tr>
+							<tr>
+								<th class='label'>Nature: </th>
+								<td>Adamant</td>
+							</tr>
+							</tr>
+						</tbody>
+					</table>
+				</td>
+				<br>
+				<td>
+					<table class='ptable3'>
+						<tbody>
+							<tr>
+								<th class='label'>Pokemon: </th>
+								<td>Salemence</td>
+							</tr>
+							<tr>
+								<th class='label'>Ability: </th>
+								<td>Intimidate</td>
+							</tr>
+							<tr>
+								<th class='label'>Held Item: </th>
+								<td>Salamencite</td>
+							</tr>
+							<tr>
+								<th class='label'>Move 1: </th>
+								<td>Draco Meteor</td>
+							</tr>
+							<tr>
+								<th class='label'>Move 2: </th>
+								<td>Hyper Voice</td>
+							</tr>
+							<tr>
+								<th class='label'>Move 3: </th>
+								<td>Protect</td>
+							</tr>
+							<tr>
+								<th class='label'>Move 4: </th>
+								<td>Tailwind</td>
+							</tr>
+							<tr>
+								<th class='label'>Nature: </th>
+								<td>Timid</td>
+							</tr>
+							</tr>
+						</tbody>
+					</table>
+				</td>
+				<td>
+					<table class='ptable'>
+						<tbody>
+							<tr>
+								<th class='label'>Pokemon: </th>
+								<td>Xerneas</td>
+							</tr>
+							<tr>
+								<th class='label'>Ability: </th>
+								<td>Fairy Aura</td>
+							</tr>
+							<tr>
+								<th class='label'>Held Item: </th>
+								<td>Power Herb</td>
+							</tr>
+							<tr>
+								<th class='label'>Move 1: </th>
+								<td>Geomancy</td>
+							</tr>
+							<tr>
+								<th class='label'>Move 2: </th>
+								<td>Dazzling Gleam</td>
+							</tr>
+							<tr>
+								<th class='label'>Move 3: </th>
+								<td>Protect</td>
+							</tr>
+							<tr>
+								<th class='label'>Move 4: </th>
+								<td>Moonblast</td>
+							</tr>
+							<tr>
+								<th class='label'>Nature: </th>
+								<td>Timid</td>
+							</tr>
+						</tbody>
+					</table>
+				</td>
+			</tr>
+		<tbody>
+	</table>
+</body>
+</html>

@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+	#outputTable {
+		width: 80%;
+		border: 1px solid black;
+	 } 
+	.ptable { 
+		display: table; 
+		width: 300px;
+		border: 1px solid black
+	 } 
+	 .ptable td { 
+		font-size: 1.5em; 
+		display: table-cell; 
+		vertical-align: inherit; 
+		border: 1px solid black	 } 
+	 h2 { 
+		 font-size: 1.5em;
+		 -webkit-margin-before: 0.83em;
+		 -webkit-margin-after: 0.83em
+		 -webkit-margin-start: 0px;
+		 -webkit-margin-end: 0px;
+		 vertical-align: inherit;
+		 font-weight: bold;
+	 } 
+</style>	<title>HTMLteam</title>
+</head>
+<body>
+	<h2>Pokemon Team List</h2>
+	<table id='outputTable'>
+		<tbody>
+			<tr>
+				<td>
+					<table class='ptable'>
+						<tbody>
+							<tr>
+								<th class='label'>Pokemon: </th>
+								<td>one</td>
+							</tr>
+							<tr>
+								<th class='label'>Ability: </th>
+								<td>one</td>
+							</tr>
+							<tr>
+								<th class='label'>Held Item: </th>
+								<td>one</td>
+							</tr>
+							<tr>
+								<th class='label'>Move 1: </th>
+								<td>one</td>
+							</tr>
+							<tr>
+								<th class='label'>Move 2: </th>
+								<td>one</td>
+							</tr>
+							<tr>
+								<th class='label'>Move 3: </th>
+								<td>one</td>
+							</tr>
+							<tr>
+								<th class='label'>Move 4: </th>
+								<td>one</td>
+							</tr>
+							<tr>
+								<th class='label'>Nature: </th>
+								<td>one</td>
+							</tr>
+						</tbody>
+					</table>
+				</td>
+				<td>
+					<table class='ptable'>
+						<tbody>
+							<tr>
+								<th class='label'>Pokemon: </th>
+								<td>two</td>
+							</tr>
+							<tr>
+								<th class='label'>Ability: </th>
+								<td>two</td>
+							</tr>
+							<tr>
+								<th class='label'>Held Item: </th>
+								<td>two</td>
+							</tr>
+							<tr>
+								<th class='label'>Move 1: </th>
+								<td>two</td>
+							</tr>
+							<tr>
+								<th class='label'>Move 2: </th>
+								<td>two</td>
+							</tr>
+							<tr>
+								<th class='label'>Move 3: </th>
+								<td>two</td>
+							</tr>
+							<tr>
+								<th class='label'>Move 4: </th>
+								<td>two</td>
+							</tr>
+							<tr>
+								<th class='label'>Nature: </th>
+								<td>two</td>
+							</tr>
+							</tr>
+						</tbody>
+					</table>
+				</td>
+				<br>
+				<td>
+					<table class='ptable'>
+						<tbody>
+							<tr>
+								<th class='label'>Pokemon: </th>
+								<td>three</td>
+							</tr>
+							<tr>
+								<th class='label'>Ability: </th>
+								<td>three</td>
+							</tr>
+							<tr>
+								<th class='label'>Held Item: </th>
+								<td>three</td>
+							</tr>
+							<tr>
+								<th class='label'>Move 1: </th>
+								<td>three</td>
+							</tr>
+							<tr>
+								<th class='label'>Move 2: </th>
+								<td>three</td>
+							</tr>
+							<tr>
+								<th class='label'>Move 3: </th>
+								<td>three</td>
+							</tr>
+							<tr>
+								<th class='label'>Move 4: </th>
+								<td>three</td>
+							</tr>
+							<tr>
+								<th class='label'>Nature: </th>
+								<td>three</td>
+							</tr>
+							</tr>
+						</tbody>
+					</table>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+	<table id='outputTable'>
+		<tbody>
+			<tr>
+				<td>
+					<table class='ptable'>
+						<tbody>
+							<tr>
+								<th class='label'>Pokemon: </th>
+								<td>four</td>
+							</tr>
+							<tr>
+								<th class='label'>Ability: </th>
+								<td>four</td>
+							</tr>
+							<tr>
+								<th class='label'>Held Item: </th>
+								<td>four</td>
+							</tr>
+							<tr>
+								<th class='label'>Move 1: </th>
+								<td>four</td>
+							</tr>
+							<tr>
+								<th class='label'>Move 2: </th>
+								<td>four</td>
+							</tr>
+							<tr>
+								<th class='label'>Move 3: </th>
+								<td>four</td>
+							</tr>
+							<tr>
+								<th class='label'>Move 4: </th>
+								<td>four</td>
+							</tr>
+							<tr>
+								<th class='label'>Nature: </th>
+								<td>four</td>
+							</tr>
+							</tr>
+						</tbody>
+					</table>
+				</td>
+				<br>
+				<td>
+					<table class='ptable'>
+						<tbody>
+							<tr>
+								<th class='label'>Pokemon: </th>
+								<td>five</td>
+							</tr>
+							<tr>
+								<th class='label'>Ability: </th>
+								<td>five</td>
+							</tr>
+							<tr>
+								<th class='label'>Held Item: </th>
+								<td>five</td>
+							</tr>
+							<tr>
+								<th class='label'>Move 1: </th>
+								<td>five</td>
+							</tr>
+							<tr>
+								<th class='label'>Move 2: </th>
+								<td>five</td>
+							</tr>
+							<tr>
+								<th class='label'>Move 3: </th>
+								<td>five</td>
+							</tr>
+							<tr>
+								<th class='label'>Move 4: </th>
+								<td>five</td>
+							</tr>
+							<tr>
+								<th class='label'>Nature: </th>
+								<td>five</td>
+							</tr>
+							</tr>
+						</tbody>
+					</table>
+				</td>
+				<td>
+					<table class='ptable'>
+						<tbody>
+							<tr>
+								<th class='label'>Pokemon: </th>
+								<td>six</td>
+							</tr>
+							<tr>
+								<th class='label'>Ability: </th>
+								<td>six</td>
+							</tr>
+							<tr>
+								<th class='label'>Held Item: </th>
+								<td>six</td>
+							</tr>
+							<tr>
+								<th class='label'>Move 1: </th>
+								<td>six</td>
+							</tr>
+							<tr>
+								<th class='label'>Move 2: </th>
+								<td>six</td>
+							</tr>
+							<tr>
+								<th class='label'>Move 3: </th>
+								<td>six</td>
+							</tr>
+							<tr>
+								<th class='label'>Move 4: </th>
+								<td>six</td>
+							</tr>
+							<tr>
+								<th class='label'>Nature: </th>
+								<td>six</td>
+							</tr>
+						</tbody>
+					</table>
+				</td>
+			</tr>
+		<tbody>
+	</table>
+</body>
+</html>
